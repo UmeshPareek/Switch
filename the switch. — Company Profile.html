@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<!-- saved from url=(0326)https://63e734b6-3ea4-4a6b-aadf-a85898b62da8.claudeusercontent.com/v1/design/projects/63e734b6-3ea4-4a6b-aadf-a85898b62da8/serve/the%20switch%20company%20profile-print.html?t=f9b7b9bbfda55dd941d996ce24346dcaf9477643ceb105e61632947edda27048.61dbb569-3309-48c6-a39f-b78dfd69e8ac.00c80841-ea8e-4509-bfb2-721f4c4e8451.1777138450#1 -->
+<html lang="en" style="--acc: #C84818; --accL: #F08040; --accD: #7A1A06; --base: #FAFAF7; --grad: linear-gradient(110deg,#F08040 0%,#C84818 45%,#7A1A06 100%); --gradV: linear-gradient(180deg,#F08040 0%,#C84818 50%,#7A1A06 100%); --gradD: linear-gradient(135deg,#F08040 0%,#C84818 40%,#7A1A06 100%);"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style data-omelette-injected="">html,body{background:transparent}</style><script data-omelette-injected="">(()=>{var A=["https://claude.ai","https://preview.claude.ai","https://eap-omelette.claude.ai"];var L=30000;var u=3000;document.addEventListener("DOMContentLoaded",()=>{const V=window.Babel;const $="om-src-id";if(V&&V.registerPlugin&&!(V.availablePlugins&&V.availablePlugins[$])){V.registerPlugin($,({types:Q})=>({visitor:{JSXOpeningElement(W,X){const K=W.node;if(K.name&&K.name.type==="JSXMemberExpression")return;for(let J=0;J<K.attributes.length;J++){const w=K.attributes[J];if(w.type==="JSXAttribute"&&w.name&&w.name.name==="data-om-id")return}const z=X.file&&X.file.opts&&X.file.opts.filename||"?";const k=K.loc&&K.loc.start;const C=`jsx:${z}:${K.start??0}:${k?k.line:0}:${k?k.column+1:0}`;K.attributes.push(Q.jsxAttribute(Q.jsxIdentifier("data-om-id"),Q.stringLiteral(C)))}}}))}const Z=["transform-react-jsx-source",$];document.querySelectorAll('script[type="text/babel"],script[type="text/jsx"]').forEach((Q,W)=>{const X=Q.getAttribute("data-plugins")||"";const K=Z.filter((z)=>X.indexOf(z)<0);if(K.length){Q.setAttribute("data-plugins",X?`${X},${K.join(",")}`:K.join(","))}if(!Q.hasAttribute("data-filename")){Q.setAttribute("data-filename",Q.getAttribute("src")||`inline-${W}`)}})});var b=window.parent;if(b&&b!==window){const V=(z,k)=>{try{b.postMessage({__omelette_log:true,type:z,data:k},"*")}catch{}};["log","warn","error"].forEach((z)=>{const k=console[z];console[z]=(...C)=>{const J=C.map((w)=>{try{return typeof w==="object"?JSON.stringify(w):String(w)}catch{try{return String(w)}catch{return"[unstringifiable]"}}}).join(" ");V(z,J);k.apply(console,C)}});window.addEventListener("error",(z)=>{const k=z.target;if(k&&k!==window&&k.tagName){const C=k.src||k.href||"";V("resource_error",`${k.tagName} failed to load: ${C}`)}else{V("error",`${z.message||"Unknown error"} at ${z.filename||"?"}:${z.lineno||0}:${z.colno||0}`)}},true);window.addEventListener("unhandledrejection",(z)=>{const k=z.reason;const C=k instanceof Error?`${k.message} ${k.stack}`:String(k);V("error",`Unhandled rejection: ${C}`)});const $=()=>{try{b.postMessage({type:"omelette:height",height:document.documentElement.scrollHeight},"*")}catch{}};if(document.readyState==="complete")$();else window.addEventListener("load",$);if(window.ResizeObserver)new ResizeObserver($).observe(document.documentElement);const Z={};let Q=0;window.claude={complete(z){return new Promise((k,C)=>{if(!A.length){C(new Error("claude.complete: no parent origin"));return}const J=`c${++Q}`;const w=()=>setTimeout(()=>{delete Z[J];C(new Error(`claude.complete: no data for ${L/1000}s`))},L);const Y=w();Z[J]={resolve:k,reject:C,text:"",t:Y,arm:w};try{for(const F of A){b.postMessage({__om_api:true,id:J,body:z},F)}}catch(F){clearTimeout(Y);delete Z[J];C(F)}})}};const W={};let X=0;window.omelette={writeFile:(z,k)=>new Promise((C,J)=>{if(!A.length){C();return}const w=`f${++X}`;const Y=setTimeout(()=>{delete W[w];C()},u);W[w]={resolve:C,reject:J,t:Y};try{for(const F of A){b.postMessage({__om_file:true,id:w,op:"write",path:z,content:k},F)}}catch{clearTimeout(Y);delete W[w];C()}})};const K=(z)=>{try{return JSON.stringify(z)}catch{return JSON.stringify(String(z))}};window.addEventListener("message",(z)=>{if(A.indexOf(z.origin)<0)return;if(z.source!==b)return;const k=z.data;if(!k)return;if(k.__om_file_r){const w=W[k.id];if(!w)return;clearTimeout(w.t);delete W[k.id];if(k.ok)w.resolve();else w.reject(new Error(k.error||"write failed"));return}if(k.__om_api_r){const w=Z[k.id];if(!w)return;if(k.error!=null){clearTimeout(w.t);delete Z[k.id];w.reject(new Error(k.error));return}if(k.chunk!=null){clearTimeout(w.t);w.t=w.arm();w.text+=k.chunk;return}if(k.done){clearTimeout(w.t);delete Z[k.id];w.resolve(k.text!=null?k.text:w.text);return}return}if(!k.__om_eval)return;const C=k;const J=(w)=>{z.source.postMessage({...w,__om_eval_r:1,id:C.id},z.origin)};try{const w=(0,eval)(C.code);if(w&&typeof w.then==="function"){w.then((Y)=>J({ok:1,v:K(Y)}),(Y)=>J({ok:0,e:String(Y)}))}else{J({ok:1,v:K(w)})}}catch(w){J({ok:0,e:String(w)})}})}})();
+</script>
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>the switch. — Company Profile</title>
+<link href="./the switch. — Company Profile_files/css2" rel="stylesheet">
+<script src="./the switch. — Company Profile_files/deck-stage.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --base:#FAFAF7;--base2:#F3F0EB;--base3:#EDE8E0;
+  --dark:#1C1008;--dark2:#2E1C10;
+  --text:#1C1008;--tmid:rgba(28,16,8,0.52);--tlow:rgba(28,16,8,0.28);
+  --border:rgba(28,16,8,0.09);
+  --acc:#C84818;--accL:#F08040;--accD:#7A1A06;
+  --grad:linear-gradient(110deg,#F08040 0%,#C84818 45%,#7A1A06 100%);
+  --gradV:linear-gradient(180deg,#F08040 0%,#C04018 50%,#7A1A06 100%);
+  --gradD:linear-gradient(135deg,#E87040 0%,#B03018 40%,#6B1408 100%);
+  --fH:'Outfit',sans-serif;--fB:'DM Sans',sans-serif;
+}
+section{background:var(--base);color:var(--text);font-family:var(--fB);overflow:hidden;}
+
+/* Brick texture */
+.brick::before{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
+  background-image:repeating-linear-gradient(0deg,transparent,transparent 62px,rgba(200,72,24,0.038) 62px,rgba(200,72,24,0.038) 65px),
+                   repeating-linear-gradient(90deg,transparent,transparent 126px,rgba(200,72,24,0.038) 126px,rgba(200,72,24,0.038) 129px);}
+.brick>*{position:relative;z-index:1;}
+.brickd::before{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
+  background-image:repeating-linear-gradient(0deg,transparent,transparent 62px,rgba(255,255,255,0.022) 62px,rgba(255,255,255,0.022) 65px),
+                   repeating-linear-gradient(90deg,transparent,transparent 126px,rgba(255,255,255,0.022) 126px,rgba(255,255,255,0.022) 129px);}
+.brickd>*{position:relative;z-index:1;}
+
+/* Grain */
+.grain{position:absolute;inset:0;opacity:0.12;mix-blend-mode:overlay;pointer-events:none;z-index:1;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.68' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+
+/* Gradient text */
+.gt{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;display:inline-block;}
+
+/* Labels */
+.lbl{font-family:var(--fH);font-size:24px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--acc);}
+.lbli{font-family:var(--fH);font-size:24px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:rgba(255,255,255,0.38);}
+
+/* Logo SVG mark */
+.lg svg{display:block;}
+.lg-text{font-family:var(--fH);font-size:26px;font-weight:700;}
+
+/* Hoverable cards */
+.card{transition:transform 0.18s ease,box-shadow 0.18s ease;}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(28,16,8,0.12);}
+
+/* Pill */
+.pill{display:inline-flex;align-items:center;padding:6px 22px;border-radius:100px;font-family:var(--fH);font-size:24px;font-weight:700;letter-spacing:0.05em;}
+
+/* Horizontal rule gradient */
+.gr{height:4px;background:var(--grad);border-radius:2px;}
+</style>
+<style id="deck-stage-print-page">@page { size: 1920px 1080px; margin: 0; } @media print { html, body { margin: 0 !important; padding: 0 !important; background: none !important; overflow: visible !important; height: auto !important; } * { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }</style></head>
+<body>
+<deck-stage width="1920" height="1080"><template shadowrootmode="open"><style>
+    :host {
+      position: fixed;
+      inset: 0;
+      display: block;
+      background: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      overflow: hidden;
+    }
+
+    .stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .canvas {
+      position: relative;
+      transform-origin: center center;
+      flex-shrink: 0;
+      background: #fff;
+      will-change: transform;
+    }
+
+    /* Slides live in light DOM (via <slot>) so authored CSS still applies.
+       We absolutely position each slotted child to stack them. */
+    ::slotted(*) {
+      position: absolute !important;
+      inset: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      box-sizing: border-box !important;
+      overflow: hidden;
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+    }
+    ::slotted([data-deck-active]) {
+      opacity: 1;
+      pointer-events: auto;
+      visibility: visible;
+    }
+
+    /* Tap zones for mobile — back/forward thirds like Stories.
+       Transparent, no visible UI, don't block the overlay. */
+    .tapzones {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      z-index: 2147482000;
+      pointer-events: none;
+    }
+    .tapzone {
+      flex: 1;
+      pointer-events: auto;
+      -webkit-tap-highlight-color: transparent;
+    }
+    /* Only activate tap zones on coarse pointers (touch devices). */
+    @media (hover: hover) and (pointer: fine) {
+      .tapzones { display: none; }
+    }
+
+    .overlay {
+      position: fixed;
+      left: 50%;
+      bottom: 22px;
+      transform: translate(-50%, 6px) scale(0.92);
+      filter: blur(6px);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px;
+      background: #000;
+      color: #fff;
+      border-radius: 999px;
+      font-size: 12px;
+      font-feature-settings: "tnum" 1;
+      letter-spacing: 0.01em;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 260ms ease, transform 260ms cubic-bezier(.2,.8,.2,1), filter 260ms ease;
+      transform-origin: center bottom;
+      z-index: 2147483000;
+      user-select: none;
+    }
+    .overlay[data-visible] {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translate(-50%, 0) scale(1);
+      filter: blur(0);
+    }
+
+    .btn {
+      appearance: none;
+      -webkit-appearance: none;
+      background: transparent;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      color: inherit;
+      font: inherit;
+      cursor: default;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 28px;
+      min-width: 28px;
+      border-radius: 999px;
+      color: rgba(255,255,255,0.72);
+      transition: background 140ms ease, color 140ms ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .btn:hover { background: rgba(255,255,255,0.12); color: #fff; }
+    .btn:active { background: rgba(255,255,255,0.18); }
+    .btn:focus { outline: none; }
+    .btn:focus-visible { outline: none; }
+    .btn::-moz-focus-inner { border: 0; }
+    .btn svg { width: 14px; height: 14px; display: block; }
+    .btn.reset {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      padding: 0 10px 0 12px;
+      gap: 6px;
+      color: rgba(255,255,255,0.72);
+    }
+    .btn.reset .kbd {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 16px;
+      height: 16px;
+      padding: 0 4px;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 10px;
+      line-height: 1;
+      color: rgba(255,255,255,0.88);
+      background: rgba(255,255,255,0.12);
+      border-radius: 4px;
+    }
+
+    .count {
+      font-variant-numeric: tabular-nums;
+      color: #fff;
+      font-weight: 500;
+      padding: 0 8px;
+      min-width: 42px;
+      text-align: center;
+      font-size: 12px;
+    }
+    .count .sep { color: rgba(255,255,255,0.45); margin: 0 3px; font-weight: 400; }
+    .count .total { color: rgba(255,255,255,0.55); }
+
+    .divider {
+      width: 1px;
+      height: 14px;
+      background: rgba(255,255,255,0.18);
+      margin: 0 2px;
+    }
+
+    /* ── Print: one page per slide, no chrome ────────────────────────────
+       The screen layout stacks every slide at inset:0 inside a scaled
+       canvas; for print we want them in document flow at the authored
+       design size so the browser paginates one slide per sheet. The
+       @page size is set from the width/height attributes via the inline
+       <style id="deck-stage-print-page"> that connectedCallback injects
+       into <head> (the @page at-rule has no effect inside shadow DOM). */
+    @media print {
+      :host {
+        position: static;
+        inset: auto;
+        background: none;
+        overflow: visible;
+        color: inherit;
+      }
+      .stage { position: static; display: block; }
+      .canvas {
+        transform: none !important;
+        width: auto !important;
+        height: auto !important;
+        background: none;
+        will-change: auto;
+      }
+      ::slotted(*) {
+        position: relative !important;
+        inset: auto !important;
+        width: var(--deck-design-w) !important;
+        height: var(--deck-design-h) !important;
+        box-sizing: border-box !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto;
+        break-after: page;
+        page-break-after: always;
+        break-inside: avoid;
+        overflow: hidden;
+      }
+      ::slotted(*:last-child) {
+        break-after: auto;
+        page-break-after: auto;
+      }
+      .overlay, .tapzones { display: none !important; }
+    }
+  </style><div class="stage"><div class="canvas" style="width: 1920px; height: 1080px; --deck-design-w: 1920px; --deck-design-h: 1080px; transform: scale(0.687963);"><slot></slot></div></div><div class="tapzones export-hidden" aria-hidden="true" data-noncommentable=""><div class="tapzone tapzone--back"></div><div class="tapzone tapzone--mid" style="pointer-events: none;"></div><div class="tapzone tapzone--fwd"></div></div><div class="overlay export-hidden" role="toolbar" aria-label="Deck controls" data-noncommentable="" data-visible="">
+        <button class="btn prev" type="button" aria-label="Previous slide" title="Previous (←)">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"></path></svg>
+        </button>
+        <span class="count" aria-live="polite"><span class="current">1</span><span class="sep">/</span><span class="total">12</span></span>
+        <button class="btn next" type="button" aria-label="Next slide" title="Next (→)">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"></path></svg>
+        </button>
+        <span class="divider"></span>
+        <button class="btn reset" type="button" aria-label="Reset to first slide" title="Reset (R)">Reset<span class="kbd">R</span></button>
+      </div></template>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  01  COVER                                               ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="01 Cover" style="position:relative;background:var(--dark);display:flex;flex-direction:column;justify-content:space-between;padding:80px 100px;" data-screen-label="01 01 Cover" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="0" data-deck-active="">
+  <div class="brickd"></div><div class="grain"></div>
+  <div style="position:absolute;top:0;right:0;width:7px;height:100%;background:var(--gradV);z-index:2;"></div>
+  <div style="position:absolute;top:0;right:0;width:640px;height:100%;background:linear-gradient(270deg,rgba(200,72,24,0.16) 0%,transparent 100%);pointer-events:none;z-index:0;"></div>
+  <svg style="position:absolute;right:110px;top:50%;transform:translateY(-50%);opacity:0.045;z-index:0;pointer-events:none;" width="580" height="290" viewBox="0 0 72 36" fill="none"><rect width="72" height="36" rx="18" fill="#fff"></rect><circle cx="18" cy="18" r="13" fill="rgba(0,0,0,0.3)"></circle></svg>
+
+  <!-- Logo bar -->
+  <div style="position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;">
+    <div style="display:flex;align-items:center;gap:14px;">
+      <svg width="68" height="34" viewBox="0 0 72 36" fill="none"><defs><lineargradient id="lg1" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="0%" stop-color="#F08040"></stop><stop offset="50%" stop-color="#C84818"></stop><stop offset="100%" stop-color="#7A1A06"></stop></lineargradient></defs><rect width="72" height="36" rx="18" fill="url(#lg1)"></rect><circle cx="18" cy="18" r="13" fill="rgba(255,255,255,0.92)"></circle><circle cx="18" cy="18" r="5.5" fill="#C84818"></circle></svg>
+      <span style="font-family:var(--fH);font-size:26px;font-weight:700;color:rgba(255,255,255,0.8);">the switch<span class="gt">.</span></span>
+    </div>
+    <div style="font-family:var(--fH);font-size:24px;color:rgba(255,255,255,0.18);letter-spacing:0.1em;text-transform:uppercase;">Company Profile · 2026</div>
+  </div>
+
+  <!-- Hero -->
+  <div style="position:relative;z-index:2;">
+    <div style="font-family:var(--fH);font-size:26px;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--acc);margin-bottom:20px;">India's Most Ambitious Property Operator</div>
+    <div style="font-family:var(--fH);font-size:158px;font-weight:900;letter-spacing:-0.06em;line-height:0.84;color:#fff;">the<br><span class="gt">switch.</span></div>
+    <div style="margin-top:28px;font-size:30px;color:rgba(255,255,255,0.4);max-width:700px;line-height:1.55;font-weight:300;">Master-lease. Furnish. Sub-let.<br>We run buildings so everyone else doesn't have to.</div>
+  </div>
+
+  <!-- Stat strip -->
+  <div style="position:relative;z-index:2;display:flex;gap:1px;">
+    <div style="flex:1;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.07);padding:36px 44px;">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;letter-spacing:-0.04em;line-height:1;color:#fff;">2026</div>
+      <div style="font-size:24px;color:rgba(255,255,255,0.32);margin-top:6px;">Founded</div>
+    </div>
+    <div style="flex:1;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.07);padding:36px 44px;">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;letter-spacing:-0.04em;line-height:1;" class="gt">30+</div>
+      <div style="font-size:24px;color:rgba(255,255,255,0.32);margin-top:6px;">Flats Under Management</div>
+    </div>
+    <div style="flex:1;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.07);padding:36px 44px;">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;letter-spacing:-0.04em;line-height:1;color:#fff;">50</div>
+      <div style="font-size:24px;color:rgba(255,255,255,0.32);margin-top:6px;">Buildings · 2-Year Target</div>
+    </div>
+    <div style="flex:1;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.07);padding:36px 44px;">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;letter-spacing:-0.04em;line-height:1;color:#fff;">10</div>
+      <div style="font-size:24px;color:rgba(255,255,255,0.32);margin-top:6px;">Cities · Phase 1 &amp; 2</div>
+    </div>
+    <div style="flex:1;background:rgba(200,72,24,0.16);border:1px solid rgba(200,72,24,0.3);padding:36px 44px;">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;letter-spacing:-0.04em;line-height:1;" class="gt">8–9yr</div>
+      <div style="font-size:24px;color:rgba(255,255,255,0.32);margin-top:6px;">Master Lease Standard</div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  02  OPERATOR STATEMENT  (single-idea slide)             ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="02 The Statement" style="position:relative;background:var(--dark);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:100px 120px;" data-screen-label="02 02 The Statement" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="1">
+  <div class="brickd"></div><div class="grain"></div>
+  <div style="position:absolute;bottom:0;left:0;right:0;height:6px;background:var(--grad);z-index:2;"></div>
+  <div style="position:absolute;top:0;right:0;width:7px;height:100%;background:var(--gradV);z-index:2;"></div>
+  <!-- ghost number -->
+  <svg style="position:absolute;right:80px;bottom:40px;opacity:0.04;pointer-events:none;z-index:0;" width="500" height="250" viewBox="0 0 72 36" fill="none"><rect width="72" height="36" rx="18" fill="#fff"></rect><circle cx="18" cy="18" r="13" fill="rgba(0,0,0,0.3)"></circle></svg>
+
+  <div style="position:relative;z-index:2;">
+    <div class="lbli" style="margin-bottom:32px;">Who we are</div>
+    <div style="font-family:var(--fH);font-size:96px;font-weight:900;letter-spacing:-0.05em;line-height:0.92;color:rgba(255,255,255,0.25);">Not a developer.</div>
+    <div style="font-family:var(--fH);font-size:96px;font-weight:900;letter-spacing:-0.05em;line-height:0.92;color:rgba(255,255,255,0.25);">Not a broker.</div>
+    <div style="font-family:var(--fH);font-size:96px;font-weight:900;letter-spacing:-0.05em;line-height:0.92;color:#fff;margin-top:12px;">An <span class="gt">operator.</span></div>
+    <div style="margin-top:44px;display:flex;align-items:center;gap:24px;">
+      <div style="width:56px;height:4px;background:var(--grad);border-radius:2px;"></div>
+      <div style="font-size:30px;color:rgba(255,255,255,0.45);font-weight:300;">We carry the complexity so every stakeholder doesn't have to.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  03  THE PROBLEM                                         ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="03 The Problem" style="display:flex;height:100%;" data-screen-label="03 03 The Problem" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="2">
+  <!-- left: gradient statement panel -->
+  <div style="width:420px;flex-shrink:0;background:var(--gradD);display:flex;flex-direction:column;justify-content:space-between;padding:80px 56px;position:relative;overflow:hidden;">
+    <div class="grain"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="lbli" style="margin-bottom:24px;">The Problem</div>
+      <div style="font-family:var(--fH);font-size:88px;font-weight:900;letter-spacing:-0.05em;line-height:0.86;color:#fff;">Broken<br>for<br>every<br>one.</div>
+    </div>
+    <div style="position:relative;z-index:2;font-size:26px;color:rgba(255,255,255,0.55);line-height:1.6;font-style:italic;">"The same gap exists in city after city.<br>Nobody is fixing it."</div>
+  </div>
+
+  <!-- right: 3 problem rows -->
+  <div style="flex:1;display:flex;flex-direction:column;background:var(--base);" class="brick">
+    <div style="flex:1;padding:44px 64px;border-bottom:1px solid var(--border);display:flex;gap:32px;align-items:center;">
+      <div style="font-family:var(--fH);font-size:80px;font-weight:900;color:rgba(200,72,24,0.1);line-height:1;flex-shrink:0;width:90px;">01</div>
+      <div>
+        <div style="font-family:var(--fH);font-size:34px;font-weight:800;color:var(--dark);margin-bottom:10px;">The Landowner — owns an asset, bears all the stress.</div>
+        <div style="font-size:26px;color:var(--tmid);line-height:1.5;">Broker commissions. Inconsistent tenants. Months of vacancy. The asset earns a fraction of what it could.</div>
+      </div>
+      <div style="margin-left:auto;flex-shrink:0;border-left:1px solid var(--border);padding-left:40px;">
+        <div style="font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);margin-bottom:6px;">the switch. fix</div>
+        <div style="font-size:25px;color:var(--dark);line-height:1.4;">Fixed rent. Zero calls. One agreement.</div>
+      </div>
+    </div>
+    <div style="flex:1;padding:44px 64px;border-bottom:1px solid var(--border);display:flex;gap:32px;align-items:center;background:var(--base2);">
+      <div style="font-family:var(--fH);font-size:80px;font-weight:900;color:rgba(200,72,24,0.1);line-height:1;flex-shrink:0;width:90px;">02</div>
+      <div>
+        <div style="font-family:var(--fH);font-size:34px;font-weight:800;color:var(--dark);margin-bottom:10px;">The Tenant — relocating, with nowhere good to go.</div>
+        <div style="font-size:26px;color:var(--tmid);line-height:1.5;">Broker fees. 3-month deposits. Unfurnished flats. Finding a rental in India is a part-time job.</div>
+      </div>
+      <div style="margin-left:auto;flex-shrink:0;border-left:1px solid var(--border);padding-left:40px;">
+        <div style="font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);margin-bottom:6px;">the switch. fix</div>
+        <div style="font-size:25px;color:var(--dark);line-height:1.4;">Walk in with a suitcase. No broker. Community.</div>
+      </div>
+    </div>
+    <div style="flex:1;padding:44px 64px;display:flex;gap:32px;align-items:center;">
+      <div style="font-family:var(--fH);font-size:80px;font-weight:900;color:rgba(200,72,24,0.1);line-height:1;flex-shrink:0;width:90px;">03</div>
+      <div>
+        <div style="font-family:var(--fH);font-size:34px;font-weight:800;color:var(--dark);margin-bottom:10px;">The Investor — capital ready, no right structure.</div>
+        <div style="font-size:26px;color:var(--tmid);line-height:1.5;">Direct ownership is illiquid. REITs are market-linked. There's no managed residential asset with monthly returns.</div>
+      </div>
+      <div style="margin-left:auto;flex-shrink:0;border-left:1px solid var(--border);padding-left:40px;">
+        <div style="font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);margin-bottom:6px;">the switch. fix</div>
+        <div style="font-size:25px;color:var(--dark);line-height:1.4;">₹20–50L per building. 18–33% p.a. Monthly.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  04  OPERATING MODEL                                     ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="04 The Model" style="display:flex;height:100%;background:var(--base);" class="brick" data-screen-label="04 04 The Model" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="3">
+  <div style="width:380px;flex-shrink:0;background:var(--dark);display:flex;flex-direction:column;justify-content:space-between;padding:72px 52px;position:relative;overflow:hidden;">
+    <div class="brickd"></div><div class="grain"></div>
+    <div style="position:absolute;bottom:0;left:0;right:0;height:5px;background:var(--grad);z-index:2;"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="lbli" style="margin-bottom:24px;">The Model</div>
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;letter-spacing:-0.04em;line-height:0.9;color:#fff;">Six steps.<br><span class="gt">One standard.</span></div>
+      <div style="margin-top:24px;font-size:25px;color:rgba(255,255,255,0.45);line-height:1.6;">Every building goes through the same rigorous process — no shortcuts, no exceptions.</div>
+    </div>
+    <div style="position:relative;z-index:2;display:flex;flex-direction:column;gap:0;">
+      <div style="display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.1);padding:14px 0;"><span style="font-size:24px;color:rgba(255,255,255,0.35);">Fit-out</span><span style="font-family:var(--fH);font-size:24px;font-weight:700;color:#fff;">4–6 weeks</span></div>
+      <div style="display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.1);padding:14px 0;"><span style="font-size:24px;color:rgba(255,255,255,0.35);">To 70%+ occupancy</span><span style="font-family:var(--fH);font-size:24px;font-weight:700;color:#fff;">45 days</span></div>
+      <div style="display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(255,255,255,0.1);padding:14px 0;"><span style="font-size:24px;color:rgba(255,255,255,0.35);">Payout by</span><span style="font-family:var(--fH);font-size:24px;font-weight:700;color:#fff;">10th of month</span></div>
+    </div>
+  </div>
+  <div style="flex:1;display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr;">
+    <div style="border-right:1px solid var(--border);border-bottom:1px solid var(--border);padding:40px 44px;display:flex;flex-direction:column;gap:10px;">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;line-height:1;color:rgba(200,72,24,0.12);">01</div>
+      <div style="font-family:var(--fH);font-size:30px;font-weight:800;color:var(--dark);margin-top:-6px;">Identify</div>
+      <div style="font-size:25px;color:var(--tmid);line-height:1.5;">20–80 unit buildings in high-employment corridors — IT parks, hospitals, universities.</div>
+    </div>
+    <div style="border-right:1px solid var(--border);border-bottom:1px solid var(--border);padding:40px 44px;display:flex;flex-direction:column;gap:10px;background:var(--base2);">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;line-height:1;color:rgba(200,72,24,0.12);">02</div>
+      <div style="font-family:var(--fH);font-size:30px;font-weight:800;color:var(--dark);margin-top:-6px;">Negotiate</div>
+      <div style="font-size:25px;color:var(--tmid);line-height:1.5;">8–9 year master lease. Fixed rent to owner regardless of occupancy. Full control to us.</div>
+    </div>
+    <div style="border-bottom:1px solid var(--border);padding:40px 44px;display:flex;flex-direction:column;gap:10px;">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;line-height:1;color:rgba(200,72,24,0.12);">03</div>
+      <div style="font-family:var(--fH);font-size:30px;font-weight:800;color:var(--dark);margin-top:-6px;">Fit Out</div>
+      <div style="font-size:25px;color:var(--tmid);line-height:1.5;">Bed, wardrobe, kitchen, WiFi — every flat furnished to the switch. standard in 4–6 weeks.</div>
+    </div>
+    <div style="border-right:1px solid var(--border);padding:40px 44px;display:flex;flex-direction:column;gap:10px;background:var(--base2);">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;line-height:1;color:rgba(200,72,24,0.12);">04</div>
+      <div style="font-family:var(--fH);font-size:30px;font-weight:800;color:var(--dark);margin-top:-6px;">Launch</div>
+      <div style="font-size:25px;color:var(--tmid);line-height:1.5;">Digital-first. Direct-to-tenant. No broker ever. Target: 70%+ leased within 45 days.</div>
+    </div>
+    <div style="border-right:1px solid var(--border);padding:40px 44px;display:flex;flex-direction:column;gap:10px;">
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;line-height:1;color:rgba(200,72,24,0.12);">05</div>
+      <div style="font-family:var(--fH);font-size:30px;font-weight:800;color:var(--dark);margin-top:-6px;">Operate</div>
+      <div style="font-size:25px;color:var(--tmid);line-height:1.5;">One dedicated on-site caretaker. Rent, maintenance, tenant relations — fully managed. Owner never called.</div>
+    </div>
+    <div style="padding:40px 44px;display:flex;flex-direction:column;gap:10px;background:rgba(200,72,24,0.05);position:relative;overflow:hidden;">
+      <div style="position:absolute;top:0;left:0;bottom:0;width:5px;background:var(--grad);"></div>
+      <div style="font-family:var(--fH);font-size:60px;font-weight:900;line-height:1;" class="gt">06</div>
+      <div style="font-family:var(--fH);font-size:30px;font-weight:800;color:var(--dark);margin-top:-6px;">Report</div>
+      <div style="font-size:25px;color:var(--tmid);line-height:1.5;">Monthly P&amp;L shared with all partners. Occupancy, revenue, OPEX visible. Payouts by the 10th. Always.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  05  NUMBERS THAT MATTER  (fun stats slide)              ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="05 Numbers" style="position:relative;background:var(--dark);display:flex;height:100%;" data-screen-label="05 05 Numbers" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="4">
+  <div class="brickd"></div><div class="grain"></div>
+  <div style="position:absolute;top:0;right:0;width:7px;height:100%;background:var(--gradV);z-index:2;"></div>
+
+  <!-- Left: label -->
+  <div style="width:360px;flex-shrink:0;border-right:1px solid rgba(255,255,255,0.08);padding:80px 60px;display:flex;flex-direction:column;justify-content:space-between;position:relative;z-index:2;">
+    <div>
+      <div class="lbli" style="margin-bottom:24px;">By the Numbers</div>
+      <div style="font-family:var(--fH);font-size:52px;font-weight:900;letter-spacing:-0.04em;line-height:0.92;color:#fff;">What the<br>model looks<br>like in<br><span class="gt">practice.</span></div>
+    </div>
+    <div style="font-size:25px;color:rgba(255,255,255,0.38);line-height:1.6;">Every number here comes from real operations — not projections.</div>
+  </div>
+
+  <!-- Right: 2×2 big stat grid -->
+  <div style="flex:1;display:grid;grid-template-columns:1fr 1fr;position:relative;z-index:2;">
+    <div style="border-right:1px solid rgba(255,255,255,0.08);border-bottom:1px solid rgba(255,255,255,0.08);padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div style="font-family:var(--fH);font-size:120px;font-weight:900;letter-spacing:-0.06em;line-height:1;" class="gt">₹0</div>
+      <div>
+        <div style="font-family:var(--fH);font-size:30px;font-weight:700;color:#fff;margin-bottom:8px;">Broker fees charged. Ever.</div>
+        <div style="font-size:25px;color:rgba(255,255,255,0.38);line-height:1.4;">We go direct — to tenants, to owners, to everyone. The middleman doesn't live here.</div>
+      </div>
+    </div>
+    <div style="border-bottom:1px solid rgba(255,255,255,0.08);padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div style="font-family:var(--fH);font-size:120px;font-weight:900;letter-spacing:-0.06em;line-height:1;color:#fff;">45</div>
+      <div>
+        <div style="font-family:var(--fH);font-size:30px;font-weight:700;color:#fff;margin-bottom:8px;">Days to 70%+ occupancy.</div>
+        <div style="font-size:25px;color:rgba(255,255,255,0.38);line-height:1.4;">Direct digital acquisition gets buildings filled faster than any broker network.</div>
+      </div>
+    </div>
+    <div style="border-right:1px solid rgba(255,255,255,0.08);padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between;background:rgba(200,72,24,0.07);">
+      <div style="font-family:var(--fH);font-size:120px;font-weight:900;letter-spacing:-0.06em;line-height:1;" class="gt">8–9</div>
+      <div>
+        <div style="font-family:var(--fH);font-size:30px;font-weight:700;color:#fff;margin-bottom:8px;">Year master lease. Standard.</div>
+        <div style="font-size:25px;color:rgba(255,255,255,0.38);line-height:1.4;">Long enough for owners to plan. Long enough for us to build something real.</div>
+      </div>
+    </div>
+    <div style="padding:64px 72px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div style="font-family:var(--fH);font-size:120px;font-weight:900;letter-spacing:-0.06em;line-height:1;color:#fff;">1</div>
+      <div>
+        <div style="font-family:var(--fH);font-size:30px;font-weight:700;color:#fff;margin-bottom:8px;">Caretaker per building.</div>
+        <div style="font-size:25px;color:rgba(255,255,255,0.38);line-height:1.4;">The single highest-ROI operational decision we've ever made. Changes everything.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  06  TRACK RECORD                                        ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="06 Track Record" style="display:flex;height:100%;" data-screen-label="06 06 Track Record" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="5">
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;background:var(--dark);padding:80px 80px;position:relative;overflow:hidden;">
+    <div class="brickd"></div><div class="grain"></div>
+    <div style="position:absolute;bottom:0;left:0;right:0;height:5px;background:var(--grad);z-index:2;"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="lbli" style="margin-bottom:24px;">Track Record</div>
+      <div style="font-family:var(--fH);font-size:76px;font-weight:900;letter-spacing:-0.05em;line-height:0.88;color:#fff;">Proof<br>before<br><span class="gt">platform.</span></div>
+      <div style="margin-top:32px;font-size:27px;color:rgba(255,255,255,0.45);line-height:1.6;max-width:500px;">Before the switch. was formalised, the founders ran buildings in Bengaluru under Urban Mace. That's the real-world test of everything we've built.</div>
+    </div>
+    <div style="position:relative;z-index:2;display:flex;flex-direction:column;gap:0;">
+      <div style="display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.1);padding:18px 0;"><span style="font-size:24px;color:rgba(255,255,255,0.35);">Sister concern</span><span style="font-family:var(--fH);font-size:26px;font-weight:700;color:#fff;">Urban Mace</span></div>
+      <div style="display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.1);padding:18px 0;"><span style="font-size:24px;color:rgba(255,255,255,0.35);">Locations</span><span style="font-family:var(--fH);font-size:26px;font-weight:700;color:#fff;">Yemlu &amp; Kempapura, Bengaluru</span></div>
+      <div style="display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(255,255,255,0.1);padding:18px 0;"><span style="font-size:24px;color:rgba(255,255,255,0.35);">Status</span><span style="font-family:var(--fH);font-size:26px;font-weight:700;" class="gt">Fully operational · 2026</span></div>
+    </div>
+  </div>
+  <div style="flex:1;display:flex;flex-direction:column;background:var(--base);" class="brick">
+    <div style="display:flex;border-bottom:1px solid var(--border);">
+      <div style="flex:1;padding:40px 52px;background:var(--base2);border-right:1px solid var(--border);">
+        <div style="font-family:var(--fH);font-size:96px;font-weight:900;letter-spacing:-0.05em;line-height:1;" class="gt">30</div>
+        <div style="font-size:24px;color:var(--tmid);margin-top:6px;">Units managed</div>
+      </div>
+      <div style="flex:1;padding:40px 52px;background:var(--base3);">
+        <div style="font-family:var(--fH);font-size:96px;font-weight:900;letter-spacing:-0.05em;line-height:1;color:var(--dark);">2</div>
+        <div style="font-size:24px;color:var(--tmid);margin-top:6px;">Live buildings</div>
+      </div>
+    </div>
+    <div style="flex:1;padding:44px 60px;display:flex;flex-direction:column;gap:16px;justify-content:center;">
+      <div style="font-family:var(--fH);font-size:24px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--tlow);margin-bottom:4px;">What we learned</div>
+      <div style="display:flex;gap:16px;align-items:flex-start;"><div style="width:26px;height:26px;background:var(--grad);border-radius:50%;flex-shrink:0;margin-top:3px;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></polyline></svg></div><div style="font-size:26px;color:var(--dark);line-height:1.45;">The master-lease model holds at every occupancy level. Fixed cost to owner, control to us.</div></div>
+      <div style="display:flex;gap:16px;align-items:flex-start;"><div style="width:26px;height:26px;background:var(--grad);border-radius:50%;flex-shrink:0;margin-top:3px;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></polyline></svg></div><div style="font-size:26px;color:var(--dark);line-height:1.45;">Digital-first acquisition beats broker channels — faster fill, better tenants, zero commission.</div></div>
+      <div style="display:flex;gap:16px;align-items:flex-start;"><div style="width:26px;height:26px;background:var(--grad);border-radius:50%;flex-shrink:0;margin-top:3px;display:flex;align-items:center;justify-content:center;"><svg width="11" height="11" viewBox="0 0 12 12" fill="none"><polyline points="2,6 5,9 10,3" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></polyline></svg></div><div style="font-size:26px;color:var(--dark);line-height:1.45;">Furnished flats command higher rents. Investment recovers within the first renewal cycle.</div></div>
+    </div>
+    <div style="border-top:1px solid var(--border);padding:24px 60px;background:rgba(200,72,24,0.04);">
+      <div style="font-size:26px;color:var(--tmid);font-style:italic;">"Every system in the switch. was tested in the real world — not designed on a whiteboard."</div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  07  FOR THE LANDOWNER                                   ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="07 Landowner" style="display:flex;height:100%;" data-screen-label="07 07 Landowner" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="6">
+  <div style="width:480px;flex-shrink:0;background:var(--dark);display:flex;flex-direction:column;justify-content:space-between;padding:80px 60px;position:relative;overflow:hidden;">
+    <div class="brickd"></div><div class="grain"></div>
+    <div style="position:absolute;top:0;right:0;width:7px;height:100%;background:var(--gradV);z-index:2;"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="lbli" style="margin-bottom:24px;">For the Landowner</div>
+      <div style="font-family:var(--fH);font-size:72px;font-weight:900;letter-spacing:-0.05em;line-height:0.88;color:#fff;">Never<br>called.<br><span class="gt">Always<br>paid.</span></div>
+    </div>
+    <div style="position:relative;z-index:2;">
+      <div style="width:48px;height:3px;background:var(--grad);border-radius:2px;margin-bottom:16px;"></div>
+      <div style="font-size:26px;color:rgba(255,255,255,0.48);line-height:1.6;font-style:italic;">"Your building earns more because it is never empty. That's our business model — not a promise."</div>
+    </div>
+  </div>
+  <div style="flex:1;display:flex;flex-direction:column;background:var(--base);" class="brick">
+    <div style="padding:56px 72px 28px;">
+      <div style="font-family:var(--fH);font-size:42px;font-weight:900;letter-spacing:-0.03em;color:var(--dark);">What you get when you partner with us.</div>
+    </div>
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center;padding:0 72px;">
+      <div style="display:flex;align-items:center;padding:20px 0;border-bottom:1px solid var(--border);gap:0;">
+        <div style="width:4px;min-height:36px;background:var(--grad);border-radius:2px;margin-right:28px;flex-shrink:0;"></div>
+        <div style="font-size:26px;color:var(--dark);font-weight:600;min-width:320px;">Guaranteed monthly lease</div>
+        <div style="font-size:26px;color:var(--tmid);">Fixed rent regardless of occupancy. Month 1 to month 108.</div>
+      </div>
+      <div style="display:flex;align-items:center;padding:20px 0;border-bottom:1px solid var(--border);gap:0;">
+        <div style="width:4px;min-height:36px;background:var(--grad);border-radius:2px;margin-right:28px;flex-shrink:0;"></div>
+        <div style="font-size:26px;color:var(--dark);font-weight:600;min-width:320px;">8–9 year lease term</div>
+        <div style="font-size:26px;color:var(--tmid);">Long-term, stable, no renegotiations or surprises.</div>
+      </div>
+      <div style="display:flex;align-items:center;padding:20px 0;border-bottom:1px solid var(--border);gap:0;">
+        <div style="width:4px;min-height:36px;background:var(--grad);border-radius:2px;margin-right:28px;flex-shrink:0;"></div>
+        <div style="font-size:26px;color:var(--dark);font-weight:600;min-width:320px;">Zero tenant management</div>
+        <div style="font-size:26px;color:var(--tmid);">Showings, collections, disputes — all on us.</div>
+      </div>
+      <div style="display:flex;align-items:center;padding:20px 0;border-bottom:1px solid var(--border);gap:0;">
+        <div style="width:4px;min-height:36px;background:var(--grad);border-radius:2px;margin-right:28px;flex-shrink:0;"></div>
+        <div style="font-size:26px;color:var(--dark);font-weight:600;min-width:320px;">No broker commissions</div>
+        <div style="font-size:26px;color:var(--tmid);">Full yield stays with the owner. Always.</div>
+      </div>
+      <div style="display:flex;align-items:center;padding:20px 0;border-bottom:1px solid var(--border);gap:0;">
+        <div style="width:4px;min-height:36px;background:var(--grad);border-radius:2px;margin-right:28px;flex-shrink:0;"></div>
+        <div style="font-size:26px;color:var(--dark);font-weight:600;min-width:320px;">Single counterparty</div>
+        <div style="font-size:26px;color:var(--tmid);">One agreement. One contact. One responsibility.</div>
+      </div>
+      <div style="display:flex;align-items:center;padding:20px 0;gap:0;">
+        <div style="width:4px;min-height:36px;background:var(--grad);border-radius:2px;margin-right:28px;flex-shrink:0;"></div>
+        <div style="font-size:26px;color:var(--dark);font-weight:600;min-width:320px;">On-site caretaker</div>
+        <div style="font-size:26px;color:var(--tmid);">Our person is there every day. You will not be called.</div>
+      </div>
+    </div>
+    <div style="border-top:1px solid var(--border);padding:24px 72px;background:rgba(200,72,24,0.04);display:flex;align-items:center;justify-content:space-between;">
+      <div style="font-size:26px;color:var(--dark);font-weight:500;">Want to lease your building to us?</div>
+      <div style="font-family:var(--fH);font-size:26px;font-weight:700;color:var(--acc);">hello@theswitch.in →</div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  08  CAPITAL PARTNER — INVESTMENT                        ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="08 Investor" style="display:flex;flex-direction:column;height:100%;background:var(--base);" class="brick" data-screen-label="08 08 Investor" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="7">
+  <div style="padding:52px 100px 28px;border-bottom:1px solid var(--border);display:flex;align-items:flex-end;justify-content:space-between;">
+    <div>
+      <div class="lbl" style="margin-bottom:12px;">For the Capital Partner</div>
+      <div style="font-family:var(--fH);font-size:54px;font-weight:900;letter-spacing:-0.035em;line-height:1;color:var(--dark);">One building. One investor. <span class="gt">Monthly returns.</span></div>
+    </div>
+    <div style="font-size:26px;color:var(--tmid);text-align:right;line-height:1.55;">₹20L–₹50L per building · 3-year lock-in · Returns from Month 3</div>
+  </div>
+  <div style="flex:1;display:flex;">
+    <div style="flex:1;border-right:1px solid var(--border);padding:40px 56px;display:flex;flex-direction:column;justify-content:space-between;">
+      <div style="font-family:var(--fH);font-size:24px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--tmid);">Track A — Fixed Yield</div>
+      <div>
+        <div style="font-family:var(--fH);font-size:110px;font-weight:900;letter-spacing:-0.04em;line-height:1;color:var(--dark);">1.5<span style="font-size:56px;">%</span></div>
+        <div style="font-size:26px;color:var(--tmid);margin-top:6px;">per month · guaranteed on capital invested</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--border);padding-bottom:14px;"><span style="font-size:26px;color:var(--tmid);">Annual ROI</span><span style="font-family:var(--fH);font-size:32px;font-weight:900;color:var(--dark);">18%</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--border);padding-bottom:14px;"><span style="font-size:26px;color:var(--tmid);">Occupancy risk to you</span><span style="font-family:var(--fH);font-size:32px;font-weight:900;color:#2E7D32;">Zero</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;"><span style="font-size:26px;color:var(--tmid);">Best for</span><span style="font-family:var(--fH);font-size:26px;font-weight:700;color:var(--dark);">Predictability over upside</span></div>
+      </div>
+    </div>
+    <div style="flex:1;background:var(--base2);padding:40px 56px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;">
+      <div style="position:absolute;top:0;left:0;right:0;height:5px;background:var(--grad);"></div>
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div style="font-family:var(--fH);font-size:24px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;" class="gt">Track B — Growth Shield™</div>
+        <div class="pill" style="background:var(--grad);color:#fff;">RECOMMENDED</div>
+      </div>
+      <div style="background:var(--base);border:1.5px solid rgba(200,72,24,0.2);padding:24px 32px;">
+        <div style="font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);margin-bottom:16px;">Every month — you receive the higher of:</div>
+        <div style="display:flex;align-items:stretch;gap:0;">
+          <div style="flex:1;background:var(--base2);padding:18px 28px;">
+            <div style="font-family:var(--fH);font-size:24px;color:var(--tmid);margin-bottom:6px;">Floor</div>
+            <div style="font-family:var(--fH);font-size:44px;font-weight:900;color:var(--dark);line-height:1;">1.25%<span style="font-size:26px;font-weight:400;">/mo</span></div>
+            <div style="font-size:24px;color:var(--tmid);margin-top:6px;">guaranteed · no conditions</div>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:center;padding:0 28px;">
+            <div style="font-family:var(--fH);font-size:32px;font-weight:900;color:var(--acc);">OR</div>
+          </div>
+          <div style="flex:1;background:var(--base2);padding:18px 28px;">
+            <div style="font-family:var(--fH);font-size:24px;color:var(--tmid);margin-bottom:6px;">Upside</div>
+            <div style="font-family:var(--fH);font-size:44px;font-weight:900;line-height:1;" class="gt">30%</div>
+            <div style="font-size:24px;color:var(--tmid);margin-top:6px;">of net operating profit</div>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px;">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--border);padding-bottom:14px;"><span style="font-size:26px;color:var(--tmid);">Annual ROI range</span><span style="font-family:var(--fH);font-size:32px;font-weight:900;" class="gt">18% – 33%</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;"><span style="font-size:26px;color:var(--tmid);">Best for</span><span style="font-family:var(--fH);font-size:26px;font-weight:700;color:var(--acc);">Upside with a safety net</span></div>
+      </div>
+    </div>
+    <div style="width:360px;flex-shrink:0;border-left:1px solid var(--border);padding:40px 40px;display:flex;flex-direction:column;gap:14px;">
+      <div style="font-family:var(--fH);font-size:24px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--tlow);">Built-in protections</div>
+      <div style="flex:1;background:var(--base2);padding:22px 24px;display:flex;flex-direction:column;gap:8px;">
+        <div style="font-family:var(--fH);font-size:26px;font-weight:700;color:var(--dark);">Aligned incentives</div>
+        <div style="font-size:24px;color:var(--tmid);line-height:1.4;">Our margin only exists when the building performs.</div>
+      </div>
+      <div style="flex:1;background:rgba(200,72,24,0.06);border:1.5px solid rgba(200,72,24,0.2);padding:22px 24px;display:flex;flex-direction:column;gap:8px;">
+        <div style="font-family:var(--fH);font-size:26px;font-weight:700;color:var(--acc);">Capital safety</div>
+        <div style="font-size:24px;color:var(--dark);line-height:1.4;">Security deposit = 71% of capital. Worst-case: 57% recovered.</div>
+      </div>
+      <div style="flex:1;background:var(--base2);padding:22px 24px;display:flex;flex-direction:column;gap:8px;">
+        <div style="font-family:var(--fH);font-size:26px;font-weight:700;color:var(--dark);">3 exit options</div>
+        <div style="font-size:24px;color:var(--tmid);line-height:1.4;">Capital return · Renewal · Recovery exit at maturity.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  09  PORTFOLIO VISION                                    ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="09 Portfolio" style="position:relative;background:var(--dark);display:flex;flex-direction:column;height:100%;" data-screen-label="09 09 Portfolio" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="8">
+  <div class="brickd"></div><div class="grain"></div>
+  <div style="padding:52px 100px 36px;border-bottom:1px solid rgba(255,255,255,0.08);display:flex;align-items:flex-end;justify-content:space-between;position:relative;z-index:2;">
+    <div>
+      <div class="lbli" style="margin-bottom:12px;">Portfolio Vision</div>
+      <div style="display:flex;align-items:baseline;gap:20px;">
+        <div style="font-family:var(--fH);font-size:110px;font-weight:900;letter-spacing:-0.06em;line-height:1;" class="gt">50</div>
+        <div>
+          <div style="font-family:var(--fH);font-size:48px;font-weight:800;color:#fff;line-height:1;">buildings.</div>
+          <div style="font-family:var(--fH);font-size:48px;font-weight:800;color:rgba(255,255,255,0.28);line-height:1;">2 years.</div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;gap:44px;padding-bottom:8px;">
+      <div><div style="font-family:var(--fH);font-size:30px;font-weight:800;" class="gt">20–80</div><div style="font-size:24px;color:rgba(255,255,255,0.35);margin-top:4px;">Flats per building</div></div>
+      <div style="width:1px;background:rgba(255,255,255,0.1);"></div>
+      <div><div style="font-family:var(--fH);font-size:30px;font-weight:800;color:#fff;">₹20–50L</div><div style="font-size:24px;color:rgba(255,255,255,0.35);margin-top:4px;">Avg. investment</div></div>
+      <div style="width:1px;background:rgba(255,255,255,0.1);"></div>
+      <div><div style="font-family:var(--fH);font-size:30px;font-weight:800;color:#fff;">8–9 yrs</div><div style="font-size:24px;color:rgba(255,255,255,0.35);margin-top:4px;">Lease standard</div></div>
+      <div style="width:1px;background:rgba(255,255,255,0.1);"></div>
+      <div><div style="font-family:var(--fH);font-size:30px;font-weight:800;color:#fff;">10</div><div style="font-size:24px;color:rgba(255,255,255,0.35);margin-top:4px;">Cities</div></div>
+    </div>
+  </div>
+  <div style="padding:32px 100px 24px;border-bottom:1px solid rgba(255,255,255,0.08);position:relative;z-index:2;">
+    <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
+      <div class="pill" style="background:var(--grad);color:#fff;">PHASE 1 — 2026</div>
+      <div style="font-size:24px;color:rgba(255,255,255,0.35);">Anchor markets · proven demand · team presence</div>
+    </div>
+    <div style="display:flex;gap:2px;">
+      <div style="flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);padding:28px 44px;display:flex;align-items:center;justify-content:space-between;">
+        <div style="font-family:var(--fH);font-size:40px;font-weight:900;color:#fff;">Bengaluru</div>
+        <div style="font-size:24px;color:rgba(255,255,255,0.35);">Karnataka · Live now</div>
+      </div>
+      <div style="flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);padding:28px 44px;display:flex;align-items:center;justify-content:space-between;">
+        <div style="font-family:var(--fH);font-size:40px;font-weight:900;color:#fff;">Hyderabad</div>
+        <div style="font-size:24px;color:rgba(255,255,255,0.35);">Telangana</div>
+      </div>
+      <div style="flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);padding:28px 44px;display:flex;align-items:center;justify-content:space-between;">
+        <div style="font-family:var(--fH);font-size:40px;font-weight:900;color:#fff;">Chennai</div>
+        <div style="font-size:24px;color:rgba(255,255,255,0.35);">Tamil Nadu</div>
+      </div>
+    </div>
+  </div>
+  <div style="padding:28px 100px;position:relative;z-index:2;display:flex;flex-direction:column;gap:16px;">
+    <div style="display:flex;align-items:center;gap:16px;">
+      <div class="pill" style="background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.65);border:1px solid rgba(255,255,255,0.12);">PHASE 2 — 2027</div>
+      <div style="font-size:24px;color:rgba(255,255,255,0.35);">High-growth · under-served · high potential</div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:2px;">
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);padding:18px 36px;"><span style="font-family:var(--fH);font-size:30px;font-weight:700;color:rgba(255,255,255,0.6);">Pune</span></div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);padding:18px 36px;"><span style="font-family:var(--fH);font-size:30px;font-weight:700;color:rgba(255,255,255,0.6);">Indore</span></div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);padding:18px 36px;"><span style="font-family:var(--fH);font-size:30px;font-weight:700;color:rgba(255,255,255,0.6);">Coimbatore</span></div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);padding:18px 36px;"><span style="font-family:var(--fH);font-size:30px;font-weight:700;color:rgba(255,255,255,0.6);">Kochi</span></div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);padding:18px 36px;"><span style="font-family:var(--fH);font-size:30px;font-weight:700;color:rgba(255,255,255,0.6);">Bhubaneswar</span></div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);padding:18px 36px;"><span style="font-family:var(--fH);font-size:30px;font-weight:700;color:rgba(255,255,255,0.6);">Lucknow</span></div>
+      <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);padding:18px 36px;"><span style="font-family:var(--fH);font-size:30px;font-weight:700;color:rgba(255,255,255,0.6);">Nagpur</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  10  THE GRID — COMMUNITY                                ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="10 The Grid" style="display:flex;height:100%;" data-screen-label="10 10 The Grid" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="9">
+  <!-- Left: statement -->
+  <div style="flex:1;background:var(--dark);display:flex;flex-direction:column;justify-content:space-between;padding:80px 72px;position:relative;overflow:hidden;">
+    <div class="brickd"></div><div class="grain"></div>
+    <div style="position:absolute;bottom:-20px;right:-20px;width:350px;height:350px;background:radial-gradient(circle,rgba(200,72,24,0.22) 0%,transparent 70%);pointer-events:none;z-index:0;"></div>
+    <div style="position:relative;z-index:2;">
+      <div class="lbli" style="margin-bottom:24px;">The Community Layer</div>
+      <div style="font-family:var(--fH);font-size:108px;font-weight:900;letter-spacing:-0.06em;line-height:0.84;color:#fff;">the<br><span class="gt">grid.</span></div>
+      <div style="margin-top:24px;font-size:27px;color:rgba(255,255,255,0.42);line-height:1.55;max-width:420px;">Connecting tenants across all switch. buildings — by what they do, how they live, who they want to meet.</div>
+    </div>
+    <div style="position:relative;z-index:2;display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;gap:16px;align-items:flex-start;border-top:1px solid rgba(255,255,255,0.1);padding-top:20px;">
+        <div style="font-family:var(--fH);font-size:26px;font-weight:700;color:var(--acc);min-width:100px;">Retention</div>
+        <div style="font-size:25px;color:rgba(255,255,255,0.45);line-height:1.4;">Tenants stay for the community. Value compounds as the network grows.</div>
+      </div>
+      <div style="display:flex;gap:16px;align-items:flex-start;">
+        <div style="font-family:var(--fH);font-size:26px;font-weight:700;color:var(--acc);min-width:100px;">Moat</div>
+        <div style="font-size:25px;color:rgba(255,255,255,0.45);line-height:1.4;">This cannot be copied. It can only be built — building by building.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: persona cards — fun! -->
+  <div style="flex:1.1;display:flex;flex-direction:column;background:var(--base2);padding:52px 56px;gap:16px;" class="brick">
+    <div style="font-family:var(--fH);font-size:24px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--tlow);margin-bottom:4px;">Who lives on the grid.</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;flex:1;">
+
+      <div class="card" style="background:var(--base);padding:28px 28px;display:flex;flex-direction:column;gap:10px;cursor:default;">
+        <div style="width:44px;height:44px;background:var(--base3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);">SF</div>
+        <div style="font-family:var(--fH);font-size:26px;font-weight:800;color:var(--dark);">Startup Founder</div>
+        <div style="font-size:24px;color:var(--tmid);line-height:1.45;">Building something. Always hiring. Three steps ahead of you.</div>
+        <div style="margin-top:auto;font-size:24px;color:var(--acc);font-style:italic;">"Will co-found with you if the idea is good enough."</div>
+      </div>
+
+      <div class="card" style="background:var(--base);padding:28px 28px;display:flex;flex-direction:column;gap:10px;cursor:default;">
+        <div style="width:44px;height:44px;background:var(--base3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);">GB</div>
+        <div style="font-family:var(--fH);font-size:26px;font-weight:800;color:var(--dark);">Gym Buddy</div>
+        <div style="font-size:24px;color:var(--tmid);line-height:1.45;">6am. No excuses. Texts you at 5:55 if you miss a session.</div>
+        <div style="margin-top:auto;font-size:24px;color:var(--acc);font-style:italic;">"Already on the way. Are you coming or not?"</div>
+      </div>
+
+      <div class="card" style="background:var(--base);padding:28px 28px;display:flex;flex-direction:column;gap:10px;cursor:default;">
+        <div style="width:44px;height:44px;background:var(--base3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);">CB</div>
+        <div style="font-family:var(--fH);font-size:26px;font-weight:800;color:var(--dark);">Chai Buddy</div>
+        <div style="font-size:24px;color:var(--tmid);line-height:1.45;">4pm. Every day. Knows every tapri within 2km.</div>
+        <div style="margin-top:auto;font-size:24px;color:var(--acc);font-style:italic;">"The one with the adda spot."</div>
+      </div>
+
+      <div class="card" style="background:var(--base);padding:28px 28px;display:flex;flex-direction:column;gap:10px;cursor:default;">
+        <div style="width:44px;height:44px;background:var(--base3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);">VC</div>
+        <div style="font-family:var(--fH);font-size:26px;font-weight:800;color:var(--dark);">VC Analyst</div>
+        <div style="font-size:24px;color:var(--tmid);line-height:1.45;">Will hear your pitch over chai. No deck needed.</div>
+        <div style="margin-top:auto;font-size:24px;color:var(--acc);font-style:italic;">"Genuinely curious. No small talk."</div>
+      </div>
+
+      <div class="card" style="background:var(--base);padding:28px 28px;display:flex;flex-direction:column;gap:10px;cursor:default;">
+        <div style="width:44px;height:44px;background:var(--base3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);">WH</div>
+        <div style="font-family:var(--fH);font-size:26px;font-weight:800;color:var(--dark);">Weekend Hiker</div>
+        <div style="font-size:24px;color:var(--tmid);line-height:1.45;">Nandi Hills at 5am. Has great trail mix. Always returns.</div>
+        <div style="margin-top:auto;font-size:24px;color:var(--acc);font-style:italic;">"Boots ready. You have 10 minutes."</div>
+      </div>
+
+      <div class="card" style="background:var(--base);padding:28px 28px;display:flex;flex-direction:column;gap:10px;cursor:default;">
+        <div style="width:44px;height:44px;background:var(--base3);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--fH);font-size:24px;font-weight:700;color:var(--acc);">MF</div>
+        <div style="font-family:var(--fH);font-size:26px;font-weight:800;color:var(--dark);">Midnight Foodie</div>
+        <div style="font-size:24px;color:var(--tmid);line-height:1.45;">Knows which dal makhni is still open at 11:30pm.</div>
+        <div style="margin-top:auto;font-size:24px;color:var(--acc);font-style:italic;">"The WhatsApp ping you actually want."</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  11  THE FOUNDING TEAM                                   ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="11 The Team" style="display:flex;flex-direction:column;height:100%;background:var(--base);" class="brick" data-screen-label="11 11 The Team" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="10">
+  <div style="padding:64px 100px 32px;border-bottom:1px solid var(--border);display:flex;align-items:flex-end;justify-content:space-between;">
+    <div>
+      <div class="lbl" style="margin-bottom:14px;">The Founding Team</div>
+      <div style="font-family:var(--fH);font-size:58px;font-weight:900;letter-spacing:-0.035em;line-height:1;color:var(--dark);">Operators, <span class="gt">not theorists.</span></div>
+    </div>
+    <div style="font-size:26px;color:var(--tmid);font-style:italic;">"We started with buildings, not decks."</div>
+  </div>
+  <div style="flex:1;display:flex;">
+    <!-- Madhusudhan -->
+    <div style="flex:1;border-right:1px solid var(--border);padding:44px 52px;display:flex;flex-direction:column;gap:16px;position:relative;overflow:hidden;">
+      <div style="position:absolute;top:0;left:0;right:0;height:5px;background:var(--grad);"></div>
+      <div>
+        <div style="font-family:var(--fH);font-size:42px;font-weight:900;letter-spacing:-0.02em;color:var(--dark);line-height:1.05;">Madhusudhan</div>
+        <div style="font-family:var(--fH);font-size:24px;font-weight:600;color:var(--acc);margin-top:8px;letter-spacing:0.06em;text-transform:uppercase;">CEO &amp; Co-Founder</div>
+      </div>
+      <div style="font-size:25px;color:var(--tmid);line-height:1.6;">Founder of Urban Mace — the sister concern that operated 30 flats across Bengaluru before the switch. became a platform. 7 years in business across automobile markets, field operations, and people management.</div>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:auto;border-top:1px solid var(--border);padding-top:18px;">
+        <div style="display:flex;gap:12px;"><div style="width:6px;height:6px;background:var(--acc);border-radius:50%;flex-shrink:0;margin-top:10px;"></div><div style="font-size:24px;color:var(--dark);">Founded Urban Mace — the real-world proof of concept</div></div>
+        <div style="display:flex;gap:12px;"><div style="width:6px;height:6px;background:var(--acc);border-radius:50%;flex-shrink:0;margin-top:10px;"></div><div style="font-size:24px;color:var(--dark);">7 years in field operations · pre-owned automobile sector</div></div>
+        <div style="display:flex;gap:12px;"><div style="width:6px;height:6px;background:var(--acc);border-radius:50%;flex-shrink:0;margin-top:10px;"></div><div style="font-size:24px;color:var(--dark);">Hands-on operator with deep ground-level market instincts</div></div>
+      </div>
+    </div>
+    <!-- Ankush -->
+    <div style="flex:1;border-right:1px solid var(--border);padding:44px 52px;display:flex;flex-direction:column;gap:16px;position:relative;overflow:hidden;background:var(--base2);">
+      <div style="position:absolute;top:0;left:0;right:0;height:5px;background:var(--grad);"></div>
+      <div>
+        <div style="font-family:var(--fH);font-size:42px;font-weight:900;letter-spacing:-0.02em;color:var(--dark);line-height:1.05;">Ankush</div>
+        <div style="font-family:var(--fH);font-size:24px;font-weight:600;color:var(--acc);margin-top:8px;letter-spacing:0.06em;text-transform:uppercase;">CFO &amp; Co-Founder</div>
+      </div>
+      <div style="font-size:25px;color:var(--tmid);line-height:1.6;">The financial mind behind the switch. Manages capital structures, investor relations, and financial planning across every building. Brings rigour, clarity, and number-backed confidence to every decision.</div>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:auto;border-top:1px solid var(--border);padding-top:18px;">
+        <div style="display:flex;gap:12px;"><div style="width:6px;height:6px;background:var(--acc);border-radius:50%;flex-shrink:0;margin-top:10px;"></div><div style="font-size:24px;color:var(--dark);">Capital structuring and investor relations</div></div>
+        <div style="display:flex;gap:12px;"><div style="width:6px;height:6px;background:var(--acc);border-radius:50%;flex-shrink:0;margin-top:10px;"></div><div style="font-size:24px;color:var(--dark);">Financial planning and per-building P&amp;L oversight</div></div>
+        <div style="display:flex;gap:12px;"><div style="width:6px;height:6px;background:var(--acc);border-radius:50%;flex-shrink:0;margin-top:10px;"></div><div style="font-size:24px;color:var(--dark);">Numbers-first operator with end-to-end ownership</div></div>
+      </div>
+    </div>
+    <!-- Umesh -->
+    <div style="flex:1;padding:44px 52px;display:flex;flex-direction:column;gap:16px;position:relative;overflow:hidden;">
+      <div style="position:absolute;top:0;left:0;right:0;height:5px;background:var(--grad);opacity:0.6;"></div>
+      <div>
+        <div style="font-family:var(--fH);font-size:42px;font-weight:900;letter-spacing:-0.02em;color:var(--dark);line-height:1.05;">Umesh Pareek</div>
+        <div style="font-family:var(--fH);font-size:24px;font-weight:600;color:var(--acc);margin-top:8px;letter-spacing:0.06em;text-transform:uppercase;">COO &amp; Co-Founder</div>
+      </div>
+      <div style="font-size:25px;color:var(--tmid);line-height:1.6;">Semi-Qualified Chartered Accountant. Built the financial architecture, investor products, and brand identity behind the switch. Consulting background across QSR, D2C, and property-adjacent sectors.</div>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:auto;border-top:1px solid var(--border);padding-top:18px;">
+        <div style="display:flex;gap:12px;"><div style="width:6px;height:6px;background:var(--acc);border-radius:50%;flex-shrink:0;margin-top:10px;"></div><div style="font-size:24px;color:var(--dark);">Semi-Qualified Chartered Accountant (CA)</div></div>
+        <div style="display:flex;gap:12px;"><div style="width:6px;height:6px;background:var(--acc);border-radius:50%;flex-shrink:0;margin-top:10px;"></div><div style="font-size:24px;color:var(--dark);">Financial modelling · brand building · investor products</div></div>
+        <div style="display:flex;gap:12px;"><div style="width:6px;height:6px;background:var(--acc);border-radius:50%;flex-shrink:0;margin-top:10px;"></div><div style="font-size:24px;color:var(--dark);">QSR · D2C · property-adjacent consulting</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  12  CLOSE                                               ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<section data-label="12 Close" style="position:relative;background:var(--dark);display:flex;flex-direction:column;justify-content:space-between;padding:80px 100px;overflow:hidden;" data-screen-label="12 12 Close" data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text" data-deck-slide="11">
+  <div class="brickd"></div><div class="grain"></div>
+  <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(240,128,64,0.15) 0%,rgba(200,72,24,0.1) 35%,transparent 65%);pointer-events:none;z-index:0;"></div>
+  <div style="position:absolute;top:0;right:0;width:7px;height:100%;background:var(--gradV);z-index:2;"></div>
+  <svg style="position:absolute;right:100px;top:50%;transform:translateY(-50%);opacity:0.04;pointer-events:none;z-index:0;" width="600" height="300" viewBox="0 0 72 36" fill="none"><rect width="72" height="36" rx="18" fill="#fff"></rect><circle cx="18" cy="18" r="13" fill="rgba(200,72,24,0.3)"></circle></svg>
+
+  <!-- Logo -->
+  <div style="position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;">
+    <div style="display:flex;align-items:center;gap:14px;">
+      <svg width="68" height="34" viewBox="0 0 72 36" fill="none"><rect width="72" height="36" rx="18" fill="rgba(255,255,255,0.18)"></rect><circle cx="18" cy="18" r="13" fill="rgba(255,255,255,0.88)"></circle><circle cx="18" cy="18" r="5.5" fill="rgba(180,60,24,0.65)"></circle></svg>
+      <span style="font-family:var(--fH);font-size:26px;font-weight:700;color:rgba(255,255,255,0.75);">the switch.</span>
+    </div>
+    <div style="font-family:var(--fH);font-size:24px;color:rgba(255,255,255,0.18);letter-spacing:0.08em;text-transform:uppercase;">Company Profile · 2026</div>
+  </div>
+
+  <!-- Hero -->
+  <div style="position:relative;z-index:2;">
+    <div style="font-family:var(--fH);font-size:132px;font-weight:900;letter-spacing:-0.055em;line-height:0.86;color:#fff;">Built to<br>operate.</div>
+    <div style="margin-top:24px;font-size:30px;color:rgba(255,255,255,0.42);max-width:760px;line-height:1.55;font-weight:300;">50 buildings. 10 cities. 2 years. The managed residential layer India never had — and the one everyone is waiting for.</div>
+  </div>
+
+  <!-- 4-panel contact bar -->
+  <div style="position:relative;z-index:2;display:flex;gap:2px;">
+    <div style="flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);padding:28px 36px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-family:var(--fH);font-size:24px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.3);">Landowners</div>
+      <div style="font-family:var(--fH);font-size:28px;font-weight:700;color:#fff;">Lease your building</div>
+      <div style="font-size:24px;color:var(--accL);margin-top:4px;">hello@theswitch.in</div>
+    </div>
+    <div style="flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);padding:28px 36px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-family:var(--fH);font-size:24px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.3);">Capital Partners</div>
+      <div style="font-family:var(--fH);font-size:28px;font-weight:700;color:#fff;">Invest in a building</div>
+      <div style="font-size:24px;color:var(--accL);margin-top:4px;">Prospectus available on request</div>
+    </div>
+    <div style="flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);padding:28px 36px;display:flex;flex-direction:column;gap:8px;">
+      <div style="font-family:var(--fH);font-size:24px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.3);">Entity</div>
+      <div style="font-family:var(--fH);font-size:28px;font-weight:700;color:#fff;">the switch. living LLP</div>
+      <div style="font-size:24px;color:rgba(255,255,255,0.38);margin-top:4px;">Bengaluru, India · Est. 2026</div>
+    </div>
+    <div style="flex:1;background:var(--grad);padding:28px 36px;display:flex;flex-direction:column;gap:8px;justify-content:space-between;">
+      <div style="font-family:var(--fH);font-size:24px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.55);">Let's talk</div>
+      <div style="font-family:var(--fH);font-size:40px;font-weight:900;color:#fff;letter-spacing:-0.02em;line-height:1;">hello@<br>theswitch.in</div>
+    </div>
+  </div>
+</section>
+
+</deck-stage>
+
+<script>
+const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "accentColor": "#C84818",
+  "lightAccent": "#F08040",
+  "deepAccent":  "#7A1A06",
+  "baseColor":   "#FAFAF7"
+}/*EDITMODE-END*/;
+let T = { ...TWEAK_DEFAULTS };
+function applyTweaks(t) {
+  const r = document.documentElement;
+  r.style.setProperty('--acc', t.accentColor);
+  r.style.setProperty('--accL', t.lightAccent);
+  r.style.setProperty('--accD', t.deepAccent);
+  r.style.setProperty('--base', t.baseColor);
+  r.style.setProperty('--grad', `linear-gradient(110deg,${t.lightAccent} 0%,${t.accentColor} 45%,${t.deepAccent} 100%)`);
+  r.style.setProperty('--gradV', `linear-gradient(180deg,${t.lightAccent} 0%,${t.accentColor} 50%,${t.deepAccent} 100%)`);
+  r.style.setProperty('--gradD', `linear-gradient(135deg,${t.lightAccent} 0%,${t.accentColor} 40%,${t.deepAccent} 100%)`);
+}
+applyTweaks(T);
+let panel = null;
+function buildPanel() {
+  const p = document.createElement('div');
+  p.style.cssText = 'position:fixed;bottom:60px;right:28px;background:#1C1008;border:1px solid rgba(200,72,24,0.35);padding:28px;z-index:9999;min-width:280px;font-family:DM Sans,sans-serif;display:none;box-shadow:0 8px 40px rgba(0,0,0,0.35);';
+  p.innerHTML = `<div style="font-family:Outfit,sans-serif;font-size:16px;font-weight:700;color:#F08040;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:20px;">Tweaks</div><div style="display:flex;flex-direction:column;gap:16px;">
+    <label style="display:flex;flex-direction:column;gap:6px;font-size:14px;color:rgba(255,255,255,0.5);">Light Accent<input type="color" id="tw-al" value="${T.lightAccent}" style="width:100%;height:36px;border:none;background:transparent;cursor:pointer;"/></label>
+    <label style="display:flex;flex-direction:column;gap:6px;font-size:14px;color:rgba(255,255,255,0.5);">Mid Accent<input type="color" id="tw-am" value="${T.accentColor}" style="width:100%;height:36px;border:none;background:transparent;cursor:pointer;"/></label>
+    <label style="display:flex;flex-direction:column;gap:6px;font-size:14px;color:rgba(255,255,255,0.5);">Deep Accent<input type="color" id="tw-ad" value="${T.deepAccent}" style="width:100%;height:36px;border:none;background:transparent;cursor:pointer;"/></label>
+    <label style="display:flex;flex-direction:column;gap:6px;font-size:14px;color:rgba(255,255,255,0.5);">Base Color<input type="color" id="tw-bg" value="${T.baseColor}" style="width:100%;height:36px;border:none;background:transparent;cursor:pointer;"/></label>
+  </div>`;
+  document.body.appendChild(p);
+  const sync = () => {
+    T = { lightAccent: p.querySelector('#tw-al').value, accentColor: p.querySelector('#tw-am').value, deepAccent: p.querySelector('#tw-ad').value, baseColor: p.querySelector('#tw-bg').value };
+    applyTweaks(T);
+    window.parent.postMessage({ type:'__edit_mode_set_keys', edits: T }, '*');
+  };
+  p.querySelectorAll('input[type=color]').forEach(i => i.addEventListener('input', sync));
+  return p;
+}
+window.addEventListener('message', e => {
+  if (e.data?.type === '__activate_edit_mode') { if (!panel) panel = buildPanel(); panel.style.display = 'block'; }
+  if (e.data?.type === '__deactivate_edit_mode') { if (panel) panel.style.display = 'none'; }
+});
+window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+</script>
+<script>
+(async () => {
+  try { await customElements.whenDefined('deck-stage'); } catch (e) {}
+  try { await document.fonts.ready; } catch (e) {}
+  setTimeout(() => { try { window.print(); } catch (e) {} }, 500);
+})();
+</script>
+
+
+</body></html>
